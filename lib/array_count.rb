@@ -22,8 +22,8 @@ sit.count do |element|
   element.even?
 end
 #puts src
-puts sit.count
-
+p sit.count
+p "\n"
 p ( sit.count do |num|
   num > 0 
 end
