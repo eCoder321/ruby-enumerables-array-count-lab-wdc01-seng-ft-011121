@@ -24,7 +24,7 @@ end
 #puts src
 puts sit.count
 
-puts ( sit.count do |num|
+p ( sit.count do |num|
   num > 0 
 end
   )
