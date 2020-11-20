@@ -7,7 +7,8 @@ def count_empty_strings(array)
 end
 
 sit = [1,3,3,4, 6]
-sit.count do |element|
+sit.count do 
+  element = ""
   puts element
 end
 
