@@ -8,7 +8,7 @@ end
 
 sit = [1,3,3,4, 6]
 soup = sit.count do |element|
-  p element
+  print element
 end
 puts "\n"
 puts soup
