@@ -10,7 +10,7 @@ sit = [1,3,3,4, 6]
 soup = sit.count do |element|
   puts element
 end
-
+puts "\n"
 puts soup
 
 for a in sit
