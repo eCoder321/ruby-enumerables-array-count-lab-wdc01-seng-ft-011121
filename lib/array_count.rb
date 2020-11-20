@@ -6,7 +6,7 @@ def count_empty_strings(array)
   # Return the total number of EMPTY strings in the provided array using the count enumerable
 end
 
-sit = [1,3,3,4, 6]
+sit = [1,0,3, -4,3,4, 6]
 soup = sit.count do |element|
   print element
 end
@@ -23,3 +23,8 @@ sit.count do |element|
 end
 #puts src
 puts sit.count
+
+puts ( sit.count do |num|
+  num > 0 
+end
+  )
