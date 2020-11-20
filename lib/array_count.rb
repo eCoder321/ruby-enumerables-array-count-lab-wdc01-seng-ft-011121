@@ -8,7 +8,7 @@ end
 
 sit = [1,3,3,4, 6]
 sit.count do 
-  element
+  element = sit.count
   puts element
 end
 
